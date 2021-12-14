@@ -1,0 +1,26 @@
+site_name: mkdocs-material-gallery-template
+
+theme:
+  name: material
+  features:
+    - navigation.indexes
+
+repo_url: https://github.com/awesome-actions-template/mkdocs-material-gallery-template
+
+markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+
+plugins:
+  - search:
+      lang:
+        - en
+        - zh
+
+extra:
+  analytics:
+    provider: google
+    property: UA-145083103-1
